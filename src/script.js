@@ -11,7 +11,7 @@ const gui = new dat.GUI()
 const textureLoader = new THREE.TextureLoader();
 
 // <--- Normal Mapping from gray scale: https://cpetry.github.io/NormalMap-Online/ -->
-const normalTexture = textureLoader.load('/textures/NormalMap.png')
+const normalTexture = textureLoader.load('.../textures/NormalMap.png')
 
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
