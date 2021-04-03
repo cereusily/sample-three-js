@@ -4,8 +4,8 @@
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
     "dev": "webpack serve --config ./bundler/webpack.dev.js",
-    "predeploy": "npm run dev",
-    "deploy": "master -d src"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Cereusily",
   "homepage": "https://cereusily.github.io/sample-three-js",
