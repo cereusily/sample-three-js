@@ -4,6 +4,7 @@
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
     "dev": "webpack serve --config ./bundler/webpack.dev.js",
+    "predeploy": "npm run dev",
     "deploy": "gh-pages -d src"
   },
   "author": "Cereusily",
